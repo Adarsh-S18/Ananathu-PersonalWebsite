@@ -12732,6 +12732,7 @@ pre .code {
       margin-bottom: 10px;
     }
     .partContent p {
+      width: 90%;
       font-size: 15px;
       color: white;
       margin-bottom: 0;
@@ -12746,6 +12747,8 @@ pre .code {
       max-width: 70%;
       height: auto;
     }
+
+
     
     .readmore {
       flex: 1;
@@ -12753,6 +12756,9 @@ pre .code {
       margin-right: 20px;
     }
     
+    .readmore a{
+      width: fit-content;
+    }
     .readmore button {
       display: block;
       width: 50%;
@@ -12770,8 +12776,9 @@ pre .code {
     @media screen and (max-width: 768px) {
       .partBox {
         flex-direction: column;
-        align-items: center;
+        align-items: center important;
         text-align: center;
+        justify-content: center;
         height: auto;
       }
       
@@ -12797,45 +12804,48 @@ pre .code {
       }
       
       .partContent p {
+        width: fit-content;
         text-align: center;
         font-size: 13px;
       }
       .readmore{
         margin-bottom: 10px;
         padding-right: 0px;
-        width: 50%;
-        margin-left: 160px;
+        width: fit-content;
+
       }
       
       .readmore button {
+        width: 100%;
+        padding: 0.4rem 3rem ;
         margin-bottom: 5px;
       }
     }
     @media screen and (max-width: 480px) {
-      .partBox{
-  
-      }
       .partContent h3 {
+        text-align: center;
         font-size: 18px;
-        color: white;
         margin-bottom: 3px;
       }
       .partContent p {
+        width: fit-content;
         font-size: 12px;
         color: white;
         margin-bottom: 0;
       }
       .ebookimg {
         margin-top: 10px;
-        max-width: 70%;
+        max-width: 90%;
       }
       .ebookimg img {
         max-width: 50%;
         height: auto;
       }
+      .readmore a{
+        width: fit-content;
+      }
       .readmore{
         margin-bottom: 10px;
-        margin-left: 130px;
-        width: 70%;
+        width: fit-content;
       }
     }
