@@ -12060,6 +12060,24 @@ pre .code {
     margin-top: 15px;
   }
 }
+ .round-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border-radius: 20px;
+      background-color: #C5E4EE;
+      text-decoration: none;
+      color: black;
+    }
+
+    /* Styles for the image on the left */
+    .button-icon {
+      width: 20px; /* Adjust the size as needed */
+      height: 20px; /* Adjust the size as needed */
+      margin-right: 10px;
+    }
+
 
 .header {
   position: relative; 
