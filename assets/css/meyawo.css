@@ -12711,6 +12711,12 @@ pre .code {
     .social-zz a:hover {
       color: #444;
     }
+
+    @media screen and (max-width: 768px) {
+      .social-zz {
+        margin-top: 80px;
+      }
+    }
     
     .ti-facebook:before {
       /* content: "\e088"; */
