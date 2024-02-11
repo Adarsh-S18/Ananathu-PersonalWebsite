@@ -12695,12 +12695,11 @@ pre .code {
       }
     }
     
-    .social-zz {
-    
+    .social-icons {
       margin-top: 20px;
     }
     
-    .social-zz a {
+    .social-icons a {
     
       display: inline-block;
       margin-right: 20px;
@@ -12708,15 +12707,15 @@ pre .code {
       font-size: 24px;
     }
     
-    .social-zz a:hover {
+    .social-icons a:hover {
       color: #444;
     }
 
-    /* @media screen and (max-width: 768px) {
-      .social-zz {
+    @media screen and (max-width: 610px) {
+      .social-icons {
         margin-top: 100px;
       }
-    } */
+    }
     
     .ti-facebook:before {
       /* content: "\e088"; */
