@@ -12712,11 +12712,11 @@ pre .code {
       color: #444;
     }
 
-    @media screen and (max-width: 768px) {
+    /* @media screen and (max-width: 768px) {
       .social-zz {
         margin-top: 100px;
       }
-    }
+    } */
     
     .ti-facebook:before {
       /* content: "\e088"; */
